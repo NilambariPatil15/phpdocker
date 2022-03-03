@@ -3,3 +3,4 @@ COPY . /var/www/php
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
 RUN service apache2 restart
+EXPOSE 8010
